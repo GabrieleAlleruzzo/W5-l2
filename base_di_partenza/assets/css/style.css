@@ -350,6 +350,25 @@ color: orangered;
 
 @media screen and (min-width: 576px) {
         
+h1 {
+    width: 100%;
+    font-size: 5rem;
+}
+
+#underline {
+    width: 90%;
+}
+
+    #add {
+        position: fixed;
+        top: 8%;
+        z-index: 2;
+    }
+    #cal {
+        position: fixed;
+        top: 2%;
+        z-index: 2;
+
         nav li { 
             display: inline;
             padding:  0px 10px  0px 10px;        
@@ -393,6 +412,7 @@ color: orangered;
             margin: auto;
         }
     }
+}
 
     /* stampa*/
     @media print {
