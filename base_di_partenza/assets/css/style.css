@@ -234,32 +234,48 @@ section h2 {
     position: fixed;
     right: 0;
     text-align: center;
+    
     padding: 0; 
-    background-color: #ffffff3f;
-    filter: blur(100);
+    background-color: #9a4a4a00;
+    backdrop-filter: blur(200);
 }
 
 #add {
     position: fixed;
     bottom: 14%;
+    
 }
 #cal {
     position: fixed;
     bottom: 8%;
+    
 }
 #top {
     position: fixed;
     bottom: 2%;
+    
 }
 
 .fa-calendar-days, .fa-square-plus{
  color: #3f6bca; 
  font-size: 25px; 
-}
+ }
 
 .fa-square-caret-up {
 color: orangered; 
  font-size: 25px; 
+}
+
+aside div {
+    position: relative;
+}
+
+.fa-tag:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 5em;
+    opacity: 20%;
 }
 
 
